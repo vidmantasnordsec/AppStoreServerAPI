@@ -200,7 +200,6 @@ class ConsumptionRequest
     public $playTime;
     /**
      * @var bool  A Boolean value that indicates whether you provided, prior to its purchase, a free sample or trial of the content, or information about its functionality. <br/>
-     * Boolean 值，指示您在购买之前是否提供了内容的免费示例或试用，或者有关其功能的信息。
      */
     public $sampleContentProvided;
 

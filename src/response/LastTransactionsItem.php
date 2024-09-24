@@ -7,7 +7,6 @@ namespace yanlongli\AppStoreServerApi\response;
  */
 class LastTransactionsItem
 {
-
     /**
      * The original transaction identifier of a purchase.
      * @var string

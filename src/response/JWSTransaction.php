@@ -2,7 +2,6 @@
 
 namespace yanlongli\AppStoreServerApi\response;
 
-
 /**
  */
 class JWSTransaction

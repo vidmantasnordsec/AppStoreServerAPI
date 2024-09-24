@@ -32,7 +32,6 @@ class JWSTransactionDecodedPayload
 
     const IN_APP_OWNERSHIP_TYPE_PURCHASED = 'PURCHASED';
     const IN_APP_OWNERSHIP_TYPE_FAMILY_SHARED = 'FAMILY_SHARED';
-
     const TYPE_AUTO_RENEWABLE_SUBSCRIPTION = 'Auto-Renewable Subscription';
     const TYPE_NON_CONSUMABLE = 'Non-Consumable';
     const TYPE_CONSUMABLE = 'Consumable';

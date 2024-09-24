@@ -14,7 +14,6 @@ namespace yanlongli\AppStoreServerApi\request;
  */
 class ExtendRenewalDateRequest
 {
-
     const EXTEND_REASON_CODE_UNKNOWN = 0;
     const EXTEND_REASON_CODE_SATISFACTION = 1;
     const EXTEND_REASON_CODE_OTHER = 2;
