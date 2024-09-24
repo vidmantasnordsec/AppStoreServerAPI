@@ -92,11 +92,11 @@ $example = new \yanlongli\AppStoreServerApi\AppStoreServerApi(
     'private key id',
     'private key',
     'IssuerID',
-    'app bundle id',// Optional,可选的，如果仅管理单个应用可以设定默认值。
+    'app bundle id',// Optional
 );
 
 // Get Subscription Status
-$example->subscriptions('originalTransactionId','app bundle id'); // app bundle id 是可选的，这里将覆盖构造函数中的设定。
+$example->subscriptions('originalTransactionId','app bundle id'); // app bundle id 
 
 // Get Transaction History
 $example->getTransactionHistory('originalTransactionId','revision');
