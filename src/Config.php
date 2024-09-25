@@ -163,20 +163,8 @@ class Config
             "iat"   => time() - 10,
             "exp"   => time() + 3590,
             "aud"   => "appstoreconnect-v1",
-            "nonce" => $this->uuid(),
             "bid"   => $this->getBundleId(),
         ];
         return JWT::encode($payload, $this->getPrivateKey(), 'ES256', $this->getPrivateKeyId());
-    }
-
-
-    protected function uuid(): string
-    {
-        $chars = md5(uniqid(mt_rand(), true));
-        return substr($chars, 0, 8) . '-'
-            . substr($chars, 8, 4) . '-'
-            . substr($chars, 12, 4) . '-'
-            . substr($chars, 16, 4) . '-'
-            . substr($chars, 20, 12);
     }
 }
